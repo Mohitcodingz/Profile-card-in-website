@@ -1,0 +1,113 @@
+html,
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 8%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box {
+    height: 600px;
+    width: 450px;
+    background-color: rgb(196, 196, 196);
+    position: absolute;
+}
+
+.insidebox {
+    height: 540px;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+}
+
+.img {
+    background-image: url("sample.jpeg");
+    background-size: cover;
+    width: 360px;
+    height: 250px;
+    border-radius: 9px;
+    position: relative;
+    left: 50%;
+    top: 6px;
+    transform: translate(-50%, 0%);
+}
+
+.nature {
+    width: 60px;
+    height: 20px;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 18px;
+    position: relative;
+    margin: 0%;
+    top: 20px;
+    left: 28px;
+}
+
+.nature:hover {
+    cursor: pointer;
+}
+
+.lake {
+    width: 50px;
+    height: 20px;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 18px;
+    position: relative;
+    margin: 0%;
+    top: -5px;
+    left: 105px;
+}
+
+.lake:hover {
+    cursor: pointer;
+}
+
+h1 {
+    position: relative;
+    margin: 0%;
+    top: 5px;
+    left: 20px;
+}
+
+.lorem {
+
+    position: relative;
+    margin: 0%;
+    top: 20px;
+    left: 20px;
+    word-break: break-word;
+    /* Breaks words if they are too long to fit */
+    max-width: 360px;
+    /* Make sure the text wraps within the box */
+}
+
+.readmore {
+    padding-top: 10px;
+    color: blue;
+    background-color: lightblue;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid lightblue;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.readmore:hover {
+    cursor: pointer;
+}
