@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE CARD UI DESIGN</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="28march.css">
+    <!-- Boxicons -->
+</head>
+
+<body>
+    <!--  card.png is a file which contains a card image. Write html anc css code to design this card -->
+      <div class="box">
+        <div class="insidebox">
+            <div class="img"></div>
+            <p class="nature">Nature</p>
+            <p class="lake">Lake</p>
+            <h1>Lago di Braies</h1>
+            <p class="lorem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui autem, magnam impedit earum quisquam exercitationem laborum. Eveniet velit quia, perspiciatis repudiandae non quis error aspernatur animi nesciunt iure unde numquam.</p>
+            <p class="readmore">
+             Read More 
+            </p>
+        </div>
+      </div>
+</body>
+</html>
